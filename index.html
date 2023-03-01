@@ -1,37 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <head>
-        <!-- Required meta tags always come first -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css">
     <title>Bautista Landscaping</title>
 </head>
 <body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" width="30" height="30" alt=" logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#landscapeNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="landscapeNavBar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#"> <i class="fa fa-home fa-lg"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html"> <i class="fa fa-info fa-lg"></i> About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html"><i class="fa fa-list fa-lg"></i> Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <h1>Bautista Landscaping</h1>
     <h2>For all your Landscaping needs</h2>
-</div>
+        <a class="btn btn-success" href="services.html" role="button">Services</a>
+        <a class="btn btn-secondary" href="contact.html" role="button">Free consultation</a>
 </header>
 
 <div>
-<h2>Our Mission</h2>
-<p>We want to make your life easier and make sure your house looks as amazing as possible. We value honesty and hard work. We keep our prices as low as possible and done as quickly as possible.</p>
+    <h2>Our Mission</h2>
+        <p>We want to make your life easier and make sure your house looks as amazing as possible. We value honesty and hard work. We keep our prices as low as possible and done as quickly as possible.</p>
 </div>
 
-<div>
-<h2>Services</h2>
-<h2>We Provide lawn mowing & all around lawn care maintenace</h2>
-<h3>Weeding</h3>
-<h3>Sidewalk & Patio Edging</h3>
-<h3>Lawn fertilization</h3>
-<h3>Mulch</h3>
-<h3>Tree trimming</h3>
-<h4>And so much more!</h4>
-<p></p>
+<div class="row row-content">
+    <div class="col">
+    <h2 class="text align-content-center">Services</h2>
+    <p>We Provide lawn mowing & all around lawn care maintenace</p>
+        <button type="button" class="btn btn-outline-success">Weeding</button>
+        <button type="button" class="btn btn-outline-success">Sidewalk & Patio Edging</button>
+        <button type="button" class="btn btn-outline-success">Lawn fertilization</button>
+        <button type="button" class="btn btn-outline-success">Mulch</button>
+        <button type="button" class="btn btn-outline-success">Tree trimming</button>
+        <div>
+        <button type="button" class="btn btn-outline-success">And so much more!</button>
+        </div>
+    </div>
 </div>
 
 <div>
